@@ -8,7 +8,7 @@ import photoqr
 white_border = 20
 
 if __name__ == "__main__":
-    test = phothoqr.photoQR()
+    test = photoqr.photoQR()
     '''img = test.acquire_video_until_button()
     test.create(img)'''
     '''kp, des = test.detect_descriptors(img)
