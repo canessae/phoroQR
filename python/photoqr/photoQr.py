@@ -16,7 +16,7 @@ from pyzbar import pyzbar
 from skimage import img_as_ubyte
 from skimage.transform import swirl
 
-from phothoqr import photoDeconv as deconv
+from photoqr import photoDeconv as deconv
 
 class photoQR:
     __cap = None

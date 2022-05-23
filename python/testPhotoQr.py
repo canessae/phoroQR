@@ -3,8 +3,7 @@ import sys
 import cv2
 import matplotlib.pyplot as plt
 import numpy as np
-
-import phothoqr
+import photoqr
 
 white_border = 20
 
