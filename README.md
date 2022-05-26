@@ -12,23 +12,30 @@ environments, which effectively combines security concepts and image processing 
 obtain data assessment.
 
 Run the prototype application:
-  user:~$ git clone https://github.com/canessae/photoQR.git
-  user:~$ cd photoQR/python
-This command downloads the Python source code. In order to have a clean installation, it is
-suggested to use a Python virtual environment:
+
+In order to have a clean installation, it is suggested to use a Python virtual environment:
+
   user:~$ python3 -m venv venv
+
   user:~$ source venv/bin/activate
+
 Now it is necessary to fulfill all requirements which can be simply downloaded with the following
 command:
+
   user:~$ pip3 install -r requirements.txt
+
 All needed dependencies of the prototype are stored in the requirements.txt file, and the prototype is
 ready to be used. The user can create a new photoQR ID card running the command:
+
   user:~$ python3 testPhotoQR.py create
+
 This command tries to open the camera and wait for a button to take a photo which will be used for
 the card creation. If the user specifies an image filename after the “create” command, the photoQR
 ID card is generated using that picture. The detection algorithm can be used, as for the creation,
 using the camera or a specified image file.
+
   user:~$ python3 testPhotoQR.py detect <Figure_1.png>
+
 If nothing is specified the code tries to open the camera and wait for a button press in order to take a
 photo and to perform the card assessment. If an image filename is specified after the “detect”
 command, that image is used for assessment (Figure_1.png in the example above).
