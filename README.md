@@ -39,3 +39,8 @@ using the camera or a specified image file.
 If nothing is specified the code tries to open the camera and wait for a button press in order to take a
 photo and to perform the card assessment. If an image filename is specified after the “detect”
 command, that image is used for assessment (Figure_1.png in the example above).
+
+
+"photoQR: A novel ID card with an encoded view" https://doi.org/10.36227/techrxiv.19895710 (paper June 2022) L. Tenze, E. Canessa
+
+
